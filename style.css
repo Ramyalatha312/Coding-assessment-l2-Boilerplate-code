@@ -8,8 +8,9 @@ body {
 body {
   display: flex;
   justify-content: center;
-  align-items: center;
-  background: linear-gradient(to right bottom, #873572, black);
+  padding: 20px;
+  background-color: #f4f4f4;
+  margin: 0;
 }
 a {
   display: inline-block;
@@ -34,3 +35,46 @@ a:active {
   transform: scale(0.98);
 }
 
+.left_container .container {
+  padding-left: 45px;
+}
+.right_container {
+  margin-left: 80px;
+}
+
+.container {
+  display: flex;
+  align-items:center;
+}
+.container1, .container2 {
+  margin: 10px;
+}
+
+.container3 {
+  margin-left: 0px;
+}
+
+.container4 {
+  margin-left: 200px;
+
+}
+
+.container7 {
+  cursor: pointer;
+  position:relative;
+  display:block;
+
+ #message {
+  display: none;
+  background-color: lightgreen;
+  color: #001001;
+  padding: 10px;
+  margin-top: 10px;
+  /* border: 10px solid #d639c6; */
+  border-radius: 5px;
+}
+
+.container8 {
+  margin-left: 40px;
+}
+}
