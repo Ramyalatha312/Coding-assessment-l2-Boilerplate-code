@@ -1,22 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <!-- REPLACE THIS WITH YOUR PROJECT NAME. EXAMPLE - Category tabs -->
-    <title>Coding Assesment L2 boilerplate</title>
-
+    <link rel="stylesheet" href="style.css"> <!-- Ensure the path is correct -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <title>Cart Page</title>
 </head>
-
 <body>
-    <!-- Your code goes here -->
-    <div class="container">
-        <a href="https://github.com/mmdmrishabh/Coding-assessment-l2-Boilerplate-code/blob/main/Readme.md" target="_blank">Read how to work with boilerplate</a>
-    </div>
-    <!-- Happy coding 😊 -->
-    <script src="./script.js"></script>
-</body>
+    <header class="header">
+        <div class="logo">
+            <h1>Marmeto</h1>
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="cart-icon">
+            <a href="#"><img src="path/to/cart-icon.png" alt="Cart Icon"></a>
+        </div>
+    </header>
 
+    <div class="cart-container">
+        <div class="cart-content">
+            <h2>Cart</h2>
+            <div id="cart-items"></div>
+            <div class="cart-totals">
+                <div>
+                    <span>Subtotal:</span>
+                    <span id="subtotal"></span>
+                </div>
+                <div>
+                    <span>Total:</span>
+                    <span id="total"></span>
+                </div>
+                <button id="checkout-btn">Check Out</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-icons">
+            <div>High Quality</div>
+            <div>Warranty Protection</div>
+            <div>Free Shipping</div>
+            <div>24/7 Support</div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
 </html>
